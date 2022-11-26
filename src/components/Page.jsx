@@ -13,7 +13,7 @@ const Page = (props) => {
           position: "relative",
           display: "flex",
           justifyContent: "end",
-          marginRight:"2rem",
+          paddingRight:"1rem",
           alignItems: "center",
         }}
       >
@@ -38,7 +38,7 @@ const Page = (props) => {
             </div>
           </Grid>
         </Grid>
-      <Typography variant="h6" textAlign="center">Swipe to next page {"------>"}</Typography>
+      <Typography variant="h6" textAlign="center" style={{bottom:0, position:"fixed", paddingBottom:"2rem",paddingLeft:"2rem"}}>Swipe to next page {"------>"}</Typography>
       
       </Grid>
     </Grid>
