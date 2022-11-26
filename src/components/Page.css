@@ -18,6 +18,6 @@
   overflow: hidden;
 }
 #pageImg{
- max-width: 100%;
+ max-width: 10rem;
  max-height: 100%;
 }

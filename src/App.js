@@ -1,6 +1,6 @@
 
 import MyBook from './Book';
-import Page from './components/Page';
+
 
 function App() {
   return (

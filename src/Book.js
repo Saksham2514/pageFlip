@@ -1,5 +1,5 @@
 import { useState } from "react";
-import HTMLFlipBook from "react-pageflip";
+import HTMLFlipBook,{} from "react-pageflip";
 import Page from "./components/Page";
 import axios from "axios";
 
@@ -8,11 +8,11 @@ export default function MyBook(props) {
   axios.get("https://brandon.co.in/api/").then((res) => setData(res.data));
 
   return (
-    <HTMLFlipBook width={1000} height={450} showCover>
-      {data.map((page) => (
+    <HTMLFlipBook width={1000} height={475  }  >
+      {data.map((page,ind) => (
         <div>
           <Page
-            key={props.id}
+            key={ind}
             image={page.image}
             bg={page.bg}
             title={page.title}
