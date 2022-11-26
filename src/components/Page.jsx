@@ -32,6 +32,7 @@ const Page = (props) => {
                 padding: "1rem",
                 display: "flex",
                 alignItems: "center",
+                width:"90%"
               }}
             >
               <Typography variant="h6">{props.children}</Typography>
