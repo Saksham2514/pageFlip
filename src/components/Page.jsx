@@ -39,7 +39,7 @@ const Page = (props) => {
             </div>
           </Grid>
         </Grid>
-      <Typography variant="h6" textAlign="center" style={{bottom:0, position:"fixed", paddingBottom:"2rem",paddingLeft:"2rem"}}>Swipe to next page {"------>"}</Typography>
+      <Typography variant="h6" textAlign="center" style={{bottom:0, position:"fixed", paddingBottom:"2rem",paddingLeft:"2rem"}}>Swipe or click on side for next page {"------>"}</Typography>
       
       </Grid>
     </Grid>
